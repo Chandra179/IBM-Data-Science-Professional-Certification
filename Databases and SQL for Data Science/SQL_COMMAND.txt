@@ -1,0 +1,35 @@
+select
+as
+order by
+like 
+and 
+or 
+between
+like
+distinct
+count
+groupby
+having
+
+sum
+min
+max
+avg
+
+round
+length
+ucase
+lcase
+
+year, month, day, dayofmonth, dayofweek, 
+dayofyear, week, hour, minute, second
+
+current_date,
+current_time
+
+subqueries:
+select (1)EMP_ID,  (2)SALARY,
+	(3)(select AVG(SALARY) from employees) AS AVG_SALARY
+		--We cannot select AVG(SALARY) directly, it caused an error. So 
+ 		  we used subqueries--
+from employees
